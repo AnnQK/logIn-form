@@ -1,0 +1,22 @@
+.button {
+    width: 275px;
+    height: 40px;
+    background: #e5e5e5;
+    border: 1px solid #f7f7f7;
+    border-radius: 10px;
+    transition: 500ms;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.button:hover:enabled {
+    color: #fff;
+    background-color: #0b3835;
+
+}
+
+.button:disabled {
+    color: #fff;
+}
